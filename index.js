@@ -2,7 +2,9 @@ const yesBtn = document.querySelector("#yesBtn");
 const noBtn = document.querySelector("#noBtn");
 
 yesBtn.addEventListener("click", function () {
-  alert("Escribe tu respuesta al WhatsApp y una sorpresa tendrás");
+  alert(
+    "No digas nada mas,solo si tu respuesta es 'SI' dimelo al whatsapp y una sorpresa tendrás"
+  );
 });
 
 noBtn.addEventListener("mouseover", function () {
