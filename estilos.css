@@ -8,7 +8,7 @@
   height: 100vh;
   text-align: center;
   /* Fondo de imagen desde una URL pública */
-  background-image: url("https://www.xtrafondos.com/wallpapers/noche-en-el-bosque-montanas-pinos-luna-12784.jpg"); /* ¡Reemplaza esta URL con la de tu imagen! */
+  background-image: url("./img/noche.jpg"); /* ¡Reemplaza esta URL con la de tu imagen! */
   background-size: cover; /* Cubre todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
