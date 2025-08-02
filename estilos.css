@@ -7,11 +7,24 @@
   width: 100vw;
   height: 100vh;
   text-align: center;
+  /* Fondo de imagen desde una URL pública */
+  background-image: url("https://www.xtrafondos.com/wallpapers/noche-en-el-bosque-montanas-pinos-luna-12784.jpg"); /* ¡Reemplaza esta URL con la de tu imagen! */
+  background-size: cover; /* Cubre todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll (opcional) */
+  font-family: Arial, sans-serif; /* Fuente por defecto */
 }
 
 p {
-  font-size: xx-large;
-  padding: 15%;
+  font-size: 3em;
+  padding: 10%;
+}
+
+.small-text {
+  font-size: 0.5em; /* Reduce el tamaño de la fuente de "Selecciona solo una opcion" */
+  display: block; /* Asegura que "Selecciona solo una opcion" esté en su propia línea */
+  margin-top: -5px; /* Ajusta este valor para controlar el espacio de interlineado */
 }
 
 button {
